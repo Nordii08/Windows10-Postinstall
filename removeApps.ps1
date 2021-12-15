@@ -15,7 +15,6 @@ Get-AppxPackage -AllUsers *Microsoft.Getstarted* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *Microsoft.Microsoft3DViewer* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *Microsoft.MicrosoftOfficeHub* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *Microsoft.MicrosoftSolitaireCollection* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *Microsoft.MixedReality.Portal* | Remove-AppxPackage
 
 Get-AppxPackage -AllUsers *Microsoft.Office.OneNote* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *Microsoft.People* | Remove-AppxPackage
