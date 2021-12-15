@@ -19,11 +19,6 @@ Set-Itemproperty -path "HKU:\*\System\GameConfigStore" -Name "GameDVR_FSEBehavio
 Set-Itemproperty -path "HKU:\*\System\GameConfigStore" -Name "GameDVR_HonorUserFSEBehaviorMode" -Value 2
 Remove-PSDrive -Name "HKU"
 
-# Disable NetBIOS over TCP/IP service
-# This legacy service (< Win2k) is vulnerable and shouldn't be used anymore.
-# Do not remove if your computer belongs to your organization's network and you are not sure.
-Set-Itemproperty -path "HKLM:\SYSTEM\CurrentControlSet\Services\NetBT" -Name "Start" -Value 4
-
 # Disable Web Search on Windows 10 2004+
 # https://winaero.com/disable-web-search-in-taskbar-in-windows-10-version-2004/
 Set-Itemproperty -path "HKCU:\SOFTWARE\Policies\Microsoft\Windows\Explorer" -Name "DisableSearchBoxSuggestions" -Value 1
