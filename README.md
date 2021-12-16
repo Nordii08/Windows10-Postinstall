@@ -1,4 +1,8 @@
-#  Windows10-Postinstall
+# THIS HAS BEEN FORKED AND CUSTOMIZED FOR MY SPECIFIC NEEDS! IF YOU ARE NOT ME, PLEASE GO TO THE ORIGINAL REPOSITORY!
+
+
+
+##  Windows10-Postinstall
 
 This repo contains a set of scripts & tools that I use to prepare my new Windows 10 (and Windows 11 too) installations. It improves performance, privacy, and makes the system cleaner overall.
 
