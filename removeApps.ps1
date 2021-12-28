@@ -20,7 +20,6 @@ Get-AppxPackage -AllUsers *Microsoft.Office.OneNote* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *Microsoft.People* | Remove-AppxPackage
 
 Get-AppxPackage -AllUsers *Microsoft.Wallet* | Remove-AppxPackage
-Get-AppxPackage -AllUsers *Microsoft.WindowsFeedbackHub* | Remove-AppxPackage
 
 Get-AppxPackage -AllUsers *Microsoft.WindowsMaps* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *Microsoft.ZuneMusic* | Remove-AppxPackage
