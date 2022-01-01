@@ -3,3 +3,7 @@ Windows Registry Editor Version 5.00
 [-HKEY_CLASSES_ROOT\Directory\shell\OpenTerminal]
 
 [-HKEY_CLASSES_ROOT\Directory\Background\shell\OpenTerminal]
+
+[-HKEY_CLASSES_ROOT\Directory\shell\AdminTerminal]
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\AdminTerminal]
