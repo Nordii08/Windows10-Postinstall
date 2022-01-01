@@ -1,0 +1,53 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenTerminal]
+"MUIVerb"="Open in Terminal"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\01CommandPrompt]
+"MUIVerb"="Command Prompt"
+"Icon"="imageres.dll,-5323"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\01CommandPrompt\command]
+@="cmd.exe /c start wt.exe -p \"Command Prompt\" -d \"%1\""
+
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\02PowerShell51]
+"MUIVerb"="PowerShell 5.1"
+"Icon"="powershell.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\02PowerShell51\command]
+@="cmd.exe /c start wt.exe -p \"PowerShell 5.1\" -d \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\03PowerShell7]
+"MUIVerb"="PowerShell 7"
+"Icon"="powershell.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\03PowerShell7\command]
+@="cmd.exe /c start wt.exe -p \"PowerShell 7\" -d \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenTerminal]
+"MUIVerb"="Open in Terminal"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\01CommandPrompt]
+"MUIVerb"="Command Prompt"
+"Icon"="imageres.dll,-5323"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\01CommandPrompt\command]
+@="cmd.exe /c start wt.exe -p \"Command Prompt\" -d \"%V\""
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\02PowerShell51]
+"MUIVerb"="PowerShell 5.1"
+"Icon"="powershell.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\02PowerShell51\command]
+@="cmd.exe /c start wt.exe -p \"PowerShell 5.1\" -d \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\03PowerShell7]
+"MUIVerb"="PowerShell 7"
+"Icon"="powershell.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\03PowerShell7\command]
+@="cmd.exe /c start wt.exe -p \"PowerShell 7\" -d \"%V\""
