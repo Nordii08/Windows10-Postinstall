@@ -83,6 +83,12 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\03PowerShell7\command]
 @="pwsh.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p PSSeven\"\" -Verb \"RunAs\"\""
 
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal]
+"MUIVerb"="Open in Terminal as Administrator"
+"HasLUAShield"=""
+"Position"="Bottom"
+"SubCommands"=""
+
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\01CommandPrompt]
 "MUIVerb"="Command Prompt"
 "HasLUAShield"=""
