@@ -73,7 +73,7 @@ Windows Registry Editor Version 5.00
 "Icon"="powershell.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\02PowerShell51\command]
-@="powershell.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p PSFiveOne\"\" -Verb \"RunAs\"\""
+@="powershell.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"\"-p PSFiveOne\"\"\" -Verb \"RunAs\"\""
 
 [HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\03PowerShell7]
 "MUIVerb"="PowerShell 7"
@@ -103,7 +103,7 @@ Windows Registry Editor Version 5.00
 "Icon"="powershell.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\02PowerShell51\command]
-@="powershell.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p PSFiveOne\"\" -Verb \"RunAs\"\""
+@="powershell.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"\"-p PSFiveOne\"\"\" -Verb \"RunAs\"\""
 
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\03PowerShell7]
 "MUIVerb"="PowerShell 7"
