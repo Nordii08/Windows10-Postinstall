@@ -58,50 +58,51 @@ Windows Registry Editor Version 5.00
 "HasLUAShield"=""
 "Position"="Bottom"
 "SubCommands"=""
-[HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\01AdminCommandPrompt]
+
+[HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\01CommandPrompt]
 "MUIVerb"="Command Prompt"
 "HasLUAShield"=""
 "Icon"="imageres.dll,-5323"
 
-[HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\01AdminCommandPrompt\command]
+[HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\01CommandPrompt\command]
 @="pwsh.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p CMDPrompt\"\" -Verb \"RunAs\"\""
 
-[HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\02AdminPowerShell51]
+[HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\02PowerShell51]
 "MUIVerb"="PowerShell 5.1"
 "HasLUAShield"=""
 "Icon"="powershell.exe"
 
-[HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\02AdminPowerShell51\command]
+[HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\02PowerShell51\command]
 @="powershell.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p PSFiveOne\"\" -Verb \"RunAs\"\""
 
-[HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\03AdminPowerShell7]
+[HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\03PowerShell7]
 "MUIVerb"="PowerShell 7"
 "HasLUAShield"=""
 "Icon"="pwsh.exe"
 
-[HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\03AdminPowerShell7\command]
+[HKEY_CLASSES_ROOT\Directory\Shell\AdminTerminal\shell\03PowerShell7\command]
 @="pwsh.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p PSSeven\"\" -Verb \"RunAs\"\""
 
-[HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\01AdminCommandPrompt]
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\01CommandPrompt]
 "MUIVerb"="Command Prompt"
 "HasLUAShield"=""
 "Icon"="imageres.dll,-5323"
 
-[HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\01AdminCommandPrompt\command]
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\01CommandPrompt\command]
 @="pwsh.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p CMDPrompt\"\" -Verb \"RunAs\"\""
 
-[HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\02AdminPowerShell51]
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\02PowerShell51]
 "MUIVerb"="PowerShell 5.1"
 "HasLUAShield"=""
 "Icon"="powershell.exe"
 
-[HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\02AdminPowerShell51\command]
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\02PowerShell51\command]
 @="powershell.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p PSFiveOne\"\" -Verb \"RunAs\"\""
 
-[HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\03AdminPowerShell7]
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\03PowerShell7]
 "MUIVerb"="PowerShell 7"
 "HasLUAShield"=""
 "Icon"="pwsh.exe"
 
-[HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\03AdminPowerShell7\command]
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\AdminTerminal\shell\03PowerShell7\command]
 @="pwsh.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p PSSeven\"\" -Verb \"RunAs\"\""
