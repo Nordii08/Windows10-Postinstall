@@ -11,21 +11,21 @@ Windows Registry Editor Version 5.00
 "Icon"="imageres.dll,-5323"
 
 [HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\01CommandPrompt\command]
-@="cmd.exe /c start wt.exe -p \"Command Prompt\" -d \"%1\""
+@="pwsh.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p CMDPrompt\"\"\""
 
 [HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\02PowerShell51]
 "MUIVerb"="PowerShell 5.1"
 "Icon"="powershell.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\02PowerShell51\command]
-@="cmd.exe /c start wt.exe -p \"PowerShell 5.1\" -d \"%1\""
+@="pwsh.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p PSFiveOne\"\"\""
 
 [HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\03PowerShell7]
 "MUIVerb"="PowerShell 7"
 "Icon"="pwsh.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\03PowerShell7\command]
-@="cmd.exe /c start wt.exe -p \"PowerShell 7\" -d \"%V\""
+@="pwsh.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p PSSeven\"\"\""
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\OpenTerminal]
 "MUIVerb"="Open in Terminal"
@@ -37,21 +37,21 @@ Windows Registry Editor Version 5.00
 "Icon"="imageres.dll,-5323"
 
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\01CommandPrompt\command]
-@="cmd.exe /c start wt.exe -p \"Command Prompt\" -d \"%V\""
+@="pwsh.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p CMDPrompt\"\"\""
 
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\02PowerShell51]
 "MUIVerb"="PowerShell 5.1"
 "Icon"="powershell.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\02PowerShell51\command]
-@="cmd.exe /c start wt.exe -p \"PowerShell 5.1\" -d \"%V\""
+@="pwsh.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p PSFiveOne\"\"\""
 
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\03PowerShell7]
 "MUIVerb"="PowerShell 7"
 "Icon"="pwsh.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\03PowerShell7\command]
-@="cmd.exe /c start wt.exe -p \"PowerShell 7\" -d \"%V\""
+@="pwsh.exe -Command \"Start-Process -FilePath \"wt.exe\" -ArgumentList \"\"-p PSSeven\"\"\""
 
 [HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\04AdminCommandPrompt]
 "MUIVerb"="Command Prompt (Admin)"
@@ -59,7 +59,7 @@ Windows Registry Editor Version 5.00
 "Icon"="imageres.dll,-5323"
 
 [HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\04AdminCommandPrompt\command]
-@="powershell.exe -WindowStyle Hidden "Set-Location -literalPath '%V';Start-Process -Verb RunAs wt.exe -ArgumentList @('-p','"""Command Prompt"""','-d','.')""
+@=
 
 [HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\05AdminPowerShell51]
 "MUIVerb"="PowerShell 5.1 (Admin)"
@@ -67,7 +67,7 @@ Windows Registry Editor Version 5.00
 "Icon"="powershell.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\05AdminPowerShell51\command]
-@="powershell.exe -WindowStyle Hidden "Set-Location -literalPath '%V';Start-Process -Verb RunAs wt.exe -ArgumentList @('-p','"""PowerShell 5.1"""','-d','.')""
+@=
 
 [HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\06AdminPowerShell7]
 "MUIVerb"="PowerShell 7 (Admin)"
@@ -75,7 +75,7 @@ Windows Registry Editor Version 5.00
 "Icon"="pwsh.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Shell\OpenTerminal\shell\06AdminPowerShell7\command]
-@="powershell.exe -WindowStyle Hidden "Set-Location -literalPath '%V';Start-Process -Verb RunAs wt.exe -ArgumentList @('-p','"""PowerShell 7"""','-d','.')""
+@=
 
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\04AdminCommandPrompt]
 "MUIVerb"="Command Prompt (Admin)"
@@ -83,7 +83,7 @@ Windows Registry Editor Version 5.00
 "Icon"="imageres.dll,-5323"
 
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\04AdminCommandPrompt\command]
-@="powershell.exe -WindowStyle Hidden "Set-Location -literalPath '%V';Start-Process -Verb RunAs wt.exe -ArgumentList @('-p','"""Command Prompt"""','-d','.')""
+@=
 
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\05AdminPowerShell51]
 "MUIVerb"="PowerShell 5.1 (Admin)"
@@ -91,7 +91,7 @@ Windows Registry Editor Version 5.00
 "Icon"="powershell.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\05AdminPowerShell51\command]
-@="powershell.exe -WindowStyle Hidden "Set-Location -literalPath '%V';Start-Process -Verb RunAs wt.exe -ArgumentList @('-p','"""PowerShell 5.1"""','-d','.')""
+@=
 
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\06AdminPowerShell7]
 "MUIVerb"="PowerShell 7 (Admin)"
@@ -99,4 +99,4 @@ Windows Registry Editor Version 5.00
 "Icon"="pwsh.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenTerminal\shell\06AdminPowerShell7\command]
-@="powershell.exe -WindowStyle Hidden "Set-Location -literalPath '%V';Start-Process -Verb RunAs wt.exe -ArgumentList @('-p','"""PowerShell 7"""','-d','.')""
+@=
